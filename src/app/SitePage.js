@@ -1,11 +1,12 @@
 import React from 'react';
 import './index.css';
+import { SiteHeader } from './SiteHeader';
 
 export class SitePage extends React.Component {
   render() {
     return (
       <div className="sitePage">
-        <h1>Quizzical</h1>
+        <SiteHeader />
         {this.props.children}
       </div>
     );
