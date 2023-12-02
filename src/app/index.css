@@ -1,0 +1,9 @@
+.sitePage {
+    background-color: rgb(60,255,60);
+    min-height: 100vh;
+    font-family: Helvetica Neue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
